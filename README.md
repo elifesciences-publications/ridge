@@ -1,3 +1,6 @@
+This code is associated with the paper from Oldfield et al., "Experience, circuit dynamics, and forebrain recruitment in larval zebrafish prey capture". eLife, 2020. http://doi.org/10.7554/eLife.56619
+
+
 ridge
 =====
 This is an implementation of [ridge regression](http://en.wikipedia.org/wiki/Tikhonov_regularization) (aka L2-regularized regression or Tikhonov regression) that takes advantage of some linear algebra tricks to do very efficient cross validation. This method is particularly useful when the number of models that you are trying to fit simultaneously is very large (thousands to tens of thousands), the number of features is very large (thousands), and the number of data points for each model is very large (thousands). 
